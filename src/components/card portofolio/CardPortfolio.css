@@ -1,0 +1,10 @@
+.container-card .card-porto {
+  background-color: #434345;
+  padding: 20px;
+  /* border-radius: 10px; */
+  text-align: start;
+  border: #fff;
+  position: relative;
+  margin: 25px;
+  box-shadow: -8px 8px 5px #1a1a1a;
+}

@@ -1,0 +1,27 @@
+import React from "react";
+import dataPortfolio from "../../data/dataPortofolio";
+import CardPortfolio from "../../components/card portofolio/CardPortofolio";
+import "./Portofolio.css";
+
+const Portfolio = () => {
+  return (
+    <>
+      <section className="portfolio">
+        <article className="container">
+          <h1>Portfolio</h1>
+          <div className="container-card">
+            {dataPortfolio.map((item, index) => {
+              return (
+                <div key={item.id}>
+                  <CardPortfolio img={item.img} link={item.link} name={item.name} desc={item.desc} />
+                </div>
+              );
+            })}
+          </div>
+        </article>
+      </section>
+    </>
+  );
+};
+
+export default Portfolio;

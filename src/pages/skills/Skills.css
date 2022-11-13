@@ -1,0 +1,47 @@
+/* skill start*/
+.skills {
+  height: 700px;
+}
+
+.skillcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: auto;
+  height: 500px;
+}
+.skillcontainer h1 {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+.skillcontainer .skillcard {
+  margin-top: 30px;
+  grid-template-columns: auto auto auto;
+  display: grid;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.skillcontainer .skillcard .card {
+  width: 250px;
+  height: 300px;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  background-color: #434345;
+  padding: 20px;
+  margin: 25px;
+  box-shadow: -8px 8px 5px #1a1a1a;
+}
+
+.skillcontainer .skillcard .card .skillpict {
+  width: 100%;
+}
+.skillcontainer .skillcard .card .skillteks {
+  color: #e8e8ef;
+  font-size: large;
+  font-weight: 500;
+}
+/* skill end */
